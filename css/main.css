@@ -8,14 +8,43 @@
 }
 
 .container{
-    max-width: 1442px;
     margin: 0 auto;
+    min-width: 992px !important;
+    width: 100%;
 }
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
 
 header{
     height: 580px;
     background: url('../img/smart_farm.svg') no-repeat;
     background-position: center;
+}
+
+body{
+    min-width: 992px !important;
 }
 
 nav{
@@ -222,8 +251,7 @@ nav ul li a{
     margin-bottom: 2rem;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.25rem;
 }
 
 .ex-col{

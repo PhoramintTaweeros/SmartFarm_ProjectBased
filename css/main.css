@@ -45,8 +45,6 @@
 
 header{
     height: 580px;
-    background: url('../img/smart_farm.svg') no-repeat;
-    background-position: center;
 }
 
 body{
@@ -189,8 +187,14 @@ nav ul li a{
     color: #25A4AD;
 }
 
+.header-bottom{
+    background: url('../img/smart_farm.svg') no-repeat;
+    background-position: center;
+    height: 31rem;
+}
+
 .headerInfo{
-    margin-top: 5rem;
+    padding-top: 5rem;
     margin-left: auto;
     margin-right: 60px;
     width: 486px;
@@ -265,8 +269,8 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     background-color: #F8F8F8;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .logo-partner{
@@ -540,4 +544,110 @@ nav ul li a{
     font-size: 48px;
     line-height: 58px;
     color: white;
+}
+
+.web-topic{
+    display: flex;
+    justify-content: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.team-show{
+    border-top: 2px solid #25A4AD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    border-bottom: 0.5rem solid #a0d6da;
+}
+
+.img-user{
+    width: 17rem;
+    height: auto;
+}
+
+.team-name{
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: #007B84;
+}
+
+.team-detail{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.number-slide{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 5rem;
+    padding: 0.5rem;
+    
+}
+
+.block-arrow-left{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    position: relative;
+    box-shadow: inset 0 0 0 0 #DBD9D9;
+    transition: ease-in-out 0.5s;
+}
+
+.block-arrow-left:hover{
+    box-shadow: inset -100px 0 0 0 #DBD9D9;
+    cursor: pointer;
+}
+
+.img-arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+.block-arrow-right{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    position: relative;
+    box-shadow: inset 0 0 0 0 #DBD9D9;
+    transition: ease-in-out 0.5s;
+}
+
+.block-arrow-right:hover{
+    box-shadow: inset 100px 0 0 0 #DBD9D9;
+    cursor: pointer;
+}
+
+.img-arrow-right{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 }
